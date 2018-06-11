@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.voiceinteractiondemo"
+    package="com.example.speechreconisationproject"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -19,24 +19,15 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <service
-            android:name=".MyInteractionDemoService"
+            android:name=".MySpeechRecognisationService"
             android:enabled="true"
-            android:exported="true"
-            android:permission="android.permission.BIND_VOICE_INTERACTION" >
-            <intent-filter>
-                <action android:name="android.service.voice.VoiceInteractionService" />
-            </intent-filter>
-            <meta-data android:name="android.voice_interaction"
-                       android:resource="@xml/interaction_service" />
+            android:exported="true" >
         </service>
-       
-       
     </application>
 
 </manifest>

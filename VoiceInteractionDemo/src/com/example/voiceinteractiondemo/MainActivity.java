@@ -1,34 +1,51 @@
 package com.example.voiceinteractiondemo;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends Activity {
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+
 		setContentView(R.layout.activity_main);
+		findViewById(R.id.start).setOnClickListener(mStartListener);
+		//findViewById(R.id.secure).setOnClickListener(mSecureListener);
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
+	public void onResume() {
+		super.onResume();
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle action bar item clicks here. The action bar will
-		// automatically handle clicks on the Home/Up button, so long
-		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
+	public void onDestroy() {
+		super.onDestroy();
+	}
+
+	@Override
+	public Uri onProvideReferrer() {
+		return Uri.parse("http://www.example.com/VoiceInteractionMain");
+	}
+
+	View.OnClickListener mStartListener = new View.OnClickListener() {
+		public void onClick(View v) {
+			//showAssist(null);
+			startService(new Intent(getApplicationContext(), MyInteractionDemoService.class));
 		}
-		return super.onOptionsItemSelected(item);
-	}
+	};
+
+	/*View.OnClickListener mSecureListener = new View.OnClickListener() {
+		public void onClick(View v) {
+			if (((CheckBox) v).isChecked()) {
+				getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
+			} else {
+				getWindow().clearFlags(WindowManager.LayoutParams.FLAG_SECURE);
+			}
+		}
+	};*/
 }
