@@ -17,6 +17,7 @@ import android.os.RemoteException;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
+import android.widget.Toast;
 
 public class MySpeechRecognisationService extends Service {
 
@@ -51,6 +52,7 @@ public class MySpeechRecognisationService extends Service {
 		mSpeechRecognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
 				RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
 		mSpeechRecognizerIntent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, this.getPackageName());
+		mSpeechRecognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "en");
 	}
 
 	protected static class IncomingHandler extends Handler {
@@ -95,17 +97,17 @@ public class MySpeechRecognisationService extends Service {
 	}
 
 	// Count down timer for Jelly Bean work around
-	protected CountDownTimer mNoSpeechCountDown = new CountDownTimer(5000, 5000) {
+	protected CountDownTimer mNoSpeechCountDown = new CountDownTimer(50000, 50000) {
 
 		@Override
 		public void onTick(long millisUntilFinished) {
-			// TODO Auto-generated method stub
+			Toast.makeText(getApplicationContext(), "on tick", Toast.LENGTH_SHORT).show();
 
 		}
 
 		@Override
 		public void onFinish() {
-			mIsCountDownOn = false;
+			/*mIsCountDownOn = false;
 			Message message = Message.obtain(null, MSG_RECOGNIZER_CANCEL);
 			try {
 				mServerMessenger.send(message);
@@ -113,7 +115,8 @@ public class MySpeechRecognisationService extends Service {
 				mServerMessenger.send(message);
 			} catch (RemoteException e) {
 
-			}
+			}*/
+			mSpeechRecognizer.stopListening();
 		}
 	};
 
@@ -190,7 +193,7 @@ public class MySpeechRecognisationService extends Service {
 
 		@Override
 		public void onResults(Bundle results) {
-			// Log.d(TAG, "onResults"); //$NON-NLS-1$
+			Toast.makeText(getApplicationContext(), "result : "+results.getStringArrayList("results_recognition"),Toast.LENGTH_SHORT).show();
 
 		}
 
@@ -200,4 +203,14 @@ public class MySpeechRecognisationService extends Service {
 		}
 
 	}
+
+	
+	@Override
+	public int onStartCommand(Intent intent, int flags, int startId) {
+		mSpeechRecognizer.startListening(mSpeechRecognizerIntent);
+		mNoSpeechCountDown.start();
+		return super.onStartCommand(intent, flags, startId);
+	}
+	
+	
 }
