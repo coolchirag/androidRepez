@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="beep">res/raw/beep.wav</raw>
+    <raw name="burp">res/raw/burp.ogg</raw>
+    <raw name="camerashutter">res/raw/camerashutter.ogg</raw>
+    <raw name="cough">res/raw/cough.ogg</raw>
+    <raw name="eealert">res/raw/eealert.mp3</raw>
+    <raw name="fart">res/raw/fart.ogg</raw>
+    <raw name="fart1">res/raw/fart1.ogg</raw>
+    <raw name="fart2">res/raw/fart2.ogg</raw>
+    <raw name="giggle">res/raw/giggle.ogg</raw>
+    <raw name="toolbox">res/raw/toolbox</raw>
+</resources>

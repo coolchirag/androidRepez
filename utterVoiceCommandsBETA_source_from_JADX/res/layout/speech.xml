@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:padding="6dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/speak_button" android:layout_width="UNKNOWN_DATA_0x6e01" android:layout_height="wrap_content" android:text="speak" />
+        <TextView android:id="@id/result" android:paddingLeft="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="result" />
+    </LinearLayout>
+</LinearLayout>

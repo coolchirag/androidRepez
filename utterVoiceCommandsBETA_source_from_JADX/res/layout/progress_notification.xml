@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/status_icon" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="10dp" android:layout_alignParentLeft="true" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toRightOf="@id/status_icon">
+        <TextView android:id="@id/status_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/NotificationTitle" />
+        <ProgressBar android:id="@id/status_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="false" android:indeterminateOnly="false" android:layout_below="@id/status_title" />
+        <TextView android:id="@id/status_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/NotificationText" />
+    </RelativeLayout>
+</RelativeLayout>

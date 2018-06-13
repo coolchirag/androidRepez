@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@id/myET" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:scrollHorizontally="false" />
+</RelativeLayout>

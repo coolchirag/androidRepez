@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="31" android:versionName="3.0.2" package="com.brandall.nutter">
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_FORMAT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <application android:theme="@*android:style/Theme.Light.NoTitleBar" android:label="@string/app_name" android:icon="@drawable/ic_launcher_nutter" android:name=".GlobalV" android:backupAgent=".BackupAgent" android:allowBackup="true">
+        <service android:name=".ServiceTTS" android:enabled="true" />
+        <service android:name=".ServiceWaveEvent" />
+        <service android:name=".ServiceShakeEvent" />
+        <service android:name="com.brandall.nutter.VoiceResultsWindow" android:enabled="false" />
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIj1d2GHhculSaCDja0UQX16x9AAEGql6jf4XGrg" />
+        <activity android:label="@string/app_name" android:icon="@drawable/ic_launcher_nutter" android:name="com.brandall.nutter.TaskerPluginActivity" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.brandall.nutter.TaskerReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.brandall.nutter.BroadcastReceiverHelper" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.brandall.nutter.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/app_widget_provider" />
+        </receiver>
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name="com.brandall.nutter.WidgetConfiguration" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:label="utter!" android:name=".LauncherShortcutProvider" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.att.android.speech.ATTSpeechActivity" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|fontScale" android:hardwareAccelerated="false" />
+        <activity android:name=".EasterEgg" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize" android:noHistory="true" />
+        <activity android:name=".ActivityHome" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name=".LauncherShortcutActivity" android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:launchMode="singleInstance" android:configChanges="keyboardHidden|orientation|screenSize" android:noHistory="true">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.SEARCH_LONG_PRESS" />
+            </intent-filter>
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.VOICE_COMMAND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.systemui.action_assist_icon" android:resource="@drawable/ic_launcher_nutter" />
+        </activity>
+        <activity android:label="@string/app_name" android:name=".ActivityCommand" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityCustomise" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivitySettings" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityBugs" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityAbout" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityAccount" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityRecognitionVoices" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityAdvancedSettings" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityPowerUser" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name=".ActivityTasker" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name=".InteractionHelper" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name=".ActivityContactPicker" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityLinkApps" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityCommunity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".FileBrowserActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityPickerActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityUserPhrases" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityUserNickNames" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityUserWords" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityTesting" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:label="@string/app_name" android:name=".ActivityApplications" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name="org.ispeech.iSpeechFramework" />
+        <meta-data android:name="ispeech_api_key" android:value="42d5daae3233e66153afecc8f03a8973" />
+        <meta-data android:name="debug" android:value="false" />
+        <activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:name="com.dropbox.client2.android.AuthActivity" android:launchMode="singleTask" android:configChanges="keyboard|orientation">
+            <intent-filter>
+                <data android:scheme="db-gglnjer4bz97cf9" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

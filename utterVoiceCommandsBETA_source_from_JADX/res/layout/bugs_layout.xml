@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/cvImageView" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_window_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="17dp" android:id="@id/cvTextView" android:paddingLeft="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name_i" android:layout_toRightOf="@id/cvImageView" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="0x1080013" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/input_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="Test a command..." android:scrollHorizontally="false" android:layout_weight="65.0" />
+        <Button android:id="@id/executeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Run" android:layout_weight="35.0" />
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollView" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <br.com.dina.ui.widget.UITableView android:id="@c0094c/b" style="@style/UITableView" />
+    </ScrollView>
+</LinearLayout>

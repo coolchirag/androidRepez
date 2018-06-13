@@ -1,0 +1,73 @@
+package wei.mark.standout;
+
+public final class C0616h {
+    public static final int f3150a;
+    public static final int f3151b;
+    public static final int f3152c;
+    public static final int f3153d;
+    public static final int f3154e;
+    public static final int f3155f;
+    public static final int f3156g;
+    public static final int f3157h;
+    public static final int f3158i;
+    public static final int f3159j;
+    public static final int f3160k;
+    public static final int f3161l;
+    public static final int f3162m;
+    public static final int f3163n;
+    public static final int f3164o;
+    public static final int f3165p;
+    private static int f3166q;
+
+    static {
+        f3166q = 0;
+        int i = f3166q;
+        f3166q = i + 1;
+        f3150a = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3151b = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3152c = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3153d = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3154e = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3155f = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3156g = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3157h = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3158i = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3159j = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3160k = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3161l = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3162m = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3163n = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3164o = 1 << i;
+        i = f3166q;
+        f3166q = i + 1;
+        f3165p = 1 << i;
+    }
+}

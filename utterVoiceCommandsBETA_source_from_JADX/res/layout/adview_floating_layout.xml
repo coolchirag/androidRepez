@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/lib/com.google.ads" ads:orientation="vertical" ads:id="@id/afl" ads:background="#aa000000" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <com.google.ads.AdView ads:id="@id/adView" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:adSize="BANNER" ads:adUnitId="a14f6514eec7ca1" ads:loadAdOnCreate="true" ads:testDevices="TEST_EMULATOR, 26F26F9E436091DB6D26BBFDBBC01B01" />
+</LinearLayout>

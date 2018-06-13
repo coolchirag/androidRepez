@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/cvImageView" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_window_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="17dp" android:id="@id/cvTextView" android:paddingLeft="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name_i" android:layout_toRightOf="@id/cvImageView" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:background="0x1080013" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/textUtter" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="8dp" android:layout_marginRight="6dp" android:hint="@string/plugin_hint" />
+    </LinearLayout>
+    <RadioGroup android:id="@id/radioGroup1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5b01">
+        <RadioButton android:id="@id/radio0" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="Speak" />
+        <RadioButton android:id="@id/radio1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Notify" />
+    </RadioGroup>
+    <CheckBox android:id="@id/checkBoxvr" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start Listening" />
+    <CheckBox android:id="@id/checkBoxvrl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Non-English Recognition Language" />
+    <CheckBox android:id="@id/checkBoxve" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Non-English Voice" />
+    <CheckBox android:id="@id/checkBoxso" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Send Value Only" />
+    <EditText android:id="@id/editTextName" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x9d01" android:layout_height="wrap_content" android:hint="@string/variable_hint" android:ems="10">
+        <requestFocus />
+    </EditText>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/saveButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" />
+        <Button android:id="@id/cancelButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" />
+    </LinearLayout>
+</LinearLayout>

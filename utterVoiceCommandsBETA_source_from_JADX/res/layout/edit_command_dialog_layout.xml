@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/ScrollView01" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/ecdl" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/ecommandt" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@id/ecommand" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true">
+            <requestFocus />
+        </EditText>
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/esuccesst" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@id/esuccess" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@id/efailt" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <EditText android:id="@id/efail" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" />
+    </LinearLayout>
+</ScrollView>

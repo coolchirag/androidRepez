@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/ScrollView01" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/epdl" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/ephrase" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true">
+            <requestFocus />
+        </EditText>
+        <EditText android:id="@id/eresponse" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:singleLine="true" />
+        <CheckBox android:id="@id/checkBox3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/vr_hint" />
+        <CheckBox android:id="@id/checkBox4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ve_hint" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/positiveButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Create" android:layout_weight="50.0" />
+                <Button android:id="@id/negativeButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel" android:layout_weight="50.0" />
+                <ImageButton android:id="@id/helpButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/helpbutton" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:background="0x1080013" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+        <RelativeLayout ads:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ads:orientation="horizontal" ads:id="@id/adLayout" ads:layout_width="UNKNOWN_DATA_0x1e001" ads:layout_height="wrap_content">
+            <com.google.ads.AdView ads:id="@id/adView" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_centerInParent="true" ads:adSize="BANNER" ads:adUnitId="a14f6514eec7ca1" ads:loadAdOnCreate="true" ads:testDevices="26F26F9E436091DB6D26BBFDBBC01B01, FAFFD14896DE0B88FCFDD1692625BFAD, 220ACA9D7FB71575F9946E71584C485D" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

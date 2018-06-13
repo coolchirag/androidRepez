@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/mdl" android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@id/usernamem" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/email_hint" android:ems="10" android:singleLine="true">
+        <requestFocus />
+    </EditText>
+    <EditText android:id="@id/passwordm" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/password_hint" android:ems="10" android:singleLine="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+</LinearLayout>

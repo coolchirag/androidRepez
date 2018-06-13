@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="Theme.Locale.Dark">
+    </style>
+    <style name="Theme.Locale.Dark">
+        <item>@style/MotorolaListViewHackStyle</item>
+    </style>
+    <style name="Theme.Locale.Dark">
+    </style>
+    <style name="Theme.Locale.Dark">
+    </style>
+    <style name="Theme.Locale.Light">
+    </style>
+    <style name="Theme.Locale.Light">
+    </style>
+    <style name="Theme.Locale.Light">
+    </style>
+    <style name="Theme.Locale.Dialog">
+    </style>
+    <style name="Theme.Locale.Dialog">
+    </style>
+    <style name="Theme.Locale.Dialog">
+    </style>
+    <style name="MotorolaListViewHackStyle">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="UITableView">
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="list_container">
+        <item>@drawable/background_view_rounded_container</item>
+    </style>
+    <style name="list_item_top">
+        <item>10</item>
+        <item>@drawable/background_view_rounded_top</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="list_item_middle">
+        <item>10</item>
+        <item>@drawable/background_view_rounded_middle</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>true</item>
+    </style>
+    <style name="list_item_bottom">
+        <item>10</item>
+        <item>@drawable/background_view_rounded_bottom</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>true</item>
+    </style>
+    <style name="list_item_single">
+        <item>10</item>
+        <item>@drawable/background_view_rounded_single</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>true</item>
+    </style>
+    <style name="list_item_chevron">
+        <item>4dp</item>
+        <item>2dp</item>
+        <item>4dp</item>
+        <item>2dp</item>
+        <item>true</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="content_page_large_text">
+        <item>16dp</item>
+        <item>1</item>
+        <item>1</item>
+        <item>@color/text_color_selector</item>
+        <item>true</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>false</item>
+    </style>
+    <style name="content_page_small_text">
+        <item>12dp</item>
+        <item>@color/text_color_selector</item>
+        <item>true</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>false</item>
+    </style>
+    <style name="content_page_large_count_text">
+        <item>16dp</item>
+        <item>#ff8295bf</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>8dp</item>
+        <item>false</item>
+    </style>
+    <style name="NotificationText">
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="NotificationTitle">
+        <item>1</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+</resources>

@@ -1,0 +1,934 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: org/apache/harmony/awt/internal/nls/messages.properties
+SHA1-Digest: vwXzKrF6LyKySPbiJ1D1h9MUd4U=
+
+Name: res/layout/widget_layout.xml
+SHA1-Digest: WF2zvjGBC2i9bpt9FMmxl/en8IQ=
+
+Name: res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png
+SHA1-Digest: 2K6H9ubNMUWrB9iHNPbYInOLoGQ=
+
+Name: res/drawable/ivona_en.png
+SHA1-Digest: Q6724SVMTw54CjRWgqWnmwNiklg=
+
+Name: res/drawable/facebook_icon.png
+SHA1-Digest: 9jTbeG4b8nJZlZss16UPfagqlUs=
+
+Name: res/drawable/ic_window_icon.png
+SHA1-Digest: aM5AHhefNx01k860P4enGaWuHzU=
+
+Name: res/drawable/gplus.png
+SHA1-Digest: O1Ms/HdukAYffYZZcwYsGY8hbNc=
+
+Name: res/layout/submit_knowledge_dialog_layout.xml
+SHA1-Digest: 4Ti6SETgKT5YawmGfDC9hLsZ9vo=
+
+Name: res/drawable/easteregg.png
+SHA1-Digest: l/8nSf9xOnbGz2gpJyNGm/TrsyQ=
+
+Name: res/layout/edit_command_dialog_layout.xml
+SHA1-Digest: 1kjphE6OMSBS9SG1TZVFFpEO/CQ=
+
+Name: res/drawable/cross.png
+SHA1-Digest: 64YMXE4YVLO5IVMg2URgULz9zwE=
+
+Name: org/ispeech/raw/logo.png
+SHA1-Digest: NNuhoy2iraLnSf6O4LbY2d03lgA=
+
+Name: res/drawable/instagram.png
+SHA1-Digest: PuIBP45/dnyGLGfhqLs4dmvWjMI=
+
+Name: res/layout/signature_dialog_layout.xml
+SHA1-Digest: M3c+qjaeR/ilmEQOQfqHfOrThVg=
+
+Name: res/layout/email_dialog_layout.xml
+SHA1-Digest: Jo/RmTORlk7EyTFgbFP4nhqXdQw=
+
+Name: res/layout/testing_layout.xml
+SHA1-Digest: wLe6NvjatSHXeTkw3NRoK0Q+Xfk=
+
+Name: javamail.smtp.address.map
+SHA1-Digest: ODAfS34uRuTBdYzYKPBp+1eqEZk=
+
+Name: res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_save.png
+SHA1-Digest: SWWghDBJvgtqC1Vv9jlfA6JN7L4=
+
+Name: res/drawable/esfilexplorer.png
+SHA1-Digest: 1nSwwL8AbbISr5dWdEXwddJRQ3E=
+
+Name: res/drawable/evernote.png
+SHA1-Digest: 6jTnOReymr/gJXlkwDKlDxQrUcM=
+
+Name: res/drawable/catchnotes.png
+SHA1-Digest: eCnSSLpX+Mn1txzTeNSYbbAxUiw=
+
+Name: res/drawable/replace.png
+SHA1-Digest: pQpzIatJUi45AldFyYRVwlKCmyI=
+
+Name: res/layout/intro_dialog_layout.xml
+SHA1-Digest: dEMyKJbvJpe1M63Aoz56lhZJYqs=
+
+Name: res/drawable/cloudpink.png
+SHA1-Digest: rmLTa0rySPwFbCdNKnnZIQri8jQ=
+
+Name: res/drawable/communityresponses.png
+SHA1-Digest: GZVwfPItN0nwdQgdsQUgowB9rI0=
+
+Name: res/drawable/settings.png
+SHA1-Digest: Z0DhWOttnrVI4cqH7Pbc0m7LwZA=
+
+Name: res/layout/account_layout.xml
+SHA1-Digest: wLe6NvjatSHXeTkw3NRoK0Q+Xfk=
+
+Name: org/ispeech/raw/voice_close.mp3
+SHA1-Digest: dL2e0fqckORv2R14417kTUCZc3M=
+
+Name: res/drawable-ldpi/utternoto.png
+SHA1-Digest: KCp15VSY7gI4DHxjaiJIb2CT7Xo=
+
+Name: res/drawable-xxhdpi/utternoto.png
+SHA1-Digest: cepPMOcpzFR4JSu+Z17PpEeCDoI=
+
+Name: res/layout/list_item_bottom.xml
+SHA1-Digest: W61MyfRVw5bdNqAOi4c/eiwnPbE=
+
+Name: res/drawable/imdb.png
+SHA1-Digest: ZBFwcr1MWF2/u9aILhmY2CHiFn8=
+
+Name: res/raw/fart1.ogg
+SHA1-Digest: M0sljX3inOF6wbA+updc/Q+GYXQ=
+
+Name: res/drawable/proofread.png
+SHA1-Digest: 5HyCSmNzrfqVJVB10bYrBMLw03A=
+
+Name: res/drawable-ldpi/ic_launcher_nutter.png
+SHA1-Digest: aM5AHhefNx01k860P4enGaWuHzU=
+
+Name: com/att/android/speech/assets/graphmeteroff_ldpi.png
+SHA1-Digest: /Ah7y+e8yLA5/1WSheG5Z9F3+40=
+
+Name: res/drawable-xhdpi/utternot.png
+SHA1-Digest: +uZYQDBaBjvAcIQLJr9GcgEVW/U=
+
+Name: res/layout/adview_floating_layout.xml
+SHA1-Digest: wQfRoXFdvetHQTa57lBvJgHY6aY=
+
+Name: res/drawable-320dpi/chevron_white_down.png
+SHA1-Digest: lZmumbVS3bBhs1PIx44gzaabj3c=
+
+Name: com/att/android/speech/assets/graphmeteron_xhdpi.png
+SHA1-Digest: 7nPrzkzg01/7lXvYI2EbBZ+IVeM=
+
+Name: res/drawable/chevron.xml
+SHA1-Digest: jeox+Ap1U69xHkY2BtPGBbKvwLk=
+
+Name: res/drawable/acidhouse.png
+SHA1-Digest: uPJA83rU95HlUVSIcCXFzufaxOA=
+
+Name: res/layout/tasker_plugin_layout.xml
+SHA1-Digest: Kldc9/zl8ylNBF9l+4gFrbetJog=
+
+Name: com/att/android/speech/assets/graphmeteron_hdpi.png
+SHA1-Digest: XagdH8hI2Er9shycn2kCLuWQskY=
+
+Name: res/layout/about_layout.xml
+SHA1-Digest: 0UW3lOWE1Q7baQ1fy6PZUTxgkoc=
+
+Name: res/layout/wave_config_dialog_layout.xml
+SHA1-Digest: 1QKG5GE4K+MP3KAyJNuOAzfSV2g=
+
+Name: mailcap.default
+SHA1-Digest: v12EA8RRccouDsMocE4Gzg0x6tE=
+
+Name: javamail.charset.map
+SHA1-Digest: 4BnU1HQIBkJviO43sy0uGhEM8V8=
+
+Name: res/layout/user_words_layout.xml
+SHA1-Digest: bl89eD8HPHP70qbJkUEaAovW37Q=
+
+Name: res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_help.png
+SHA1-Digest: vH5puQ4wMh+RrBkuuYDQUVlz18k=
+
+Name: res/layout/try_again_dialog_layout.xml
+SHA1-Digest: GB/TtR53QyLQEbfEs795xToipv8=
+
+Name: res/drawable/ispeech.png
+SHA1-Digest: 9n2gV6+slZJH+6pb+WTyWXktkQA=
+
+Name: res/drawable/power_green.png
+SHA1-Digest: tSp4yqWMNLRXwR47PGBTVGNuoXo=
+
+Name: res/drawable/cloudblue.png
+SHA1-Digest: Z8zfFxpwzVT4rL/e4IzqDXPsMI0=
+
+Name: res/drawable-mdpi/chevron_default.png
+SHA1-Digest: JlE60jhz36uQNUKqVceaT63Bnb0=
+
+Name: res/raw/camerashutter.ogg
+SHA1-Digest: zecM6jnbQvtDwf+q3i3XOEjbap0=
+
+Name: res/drawable-mdpi/utternotpb.png
+SHA1-Digest: NDuRThc0MahxxcB3HFKrEMFqt2k=
+
+Name: res/layout/phrase_dialog_layout.xml
+SHA1-Digest: JqFBeAl0181Y+bUimkmn5l/zm6M=
+
+Name: res/drawable/play.png
+SHA1-Digest: S23ncl2e8WcpN90nN1ZwbxKzLGI=
+
+Name: res/drawable-hdpi/chevron_default.png
+SHA1-Digest: prtprWIbkiV5Tu7EsB84ZFlVOlM=
+
+Name: res/layout/temperature_units_dialog_layout.xml
+SHA1-Digest: N+lW7bNfDX3321ILG3XTcg0uBjs=
+
+Name: res/drawable-ldpi/chevron_default.png
+SHA1-Digest: t/fuEyInoPs9jJ6FE6erur3oSiY=
+
+Name: res/drawable-mdpi-v14/twofortyfouram_locale_ic_menu_help.png
+SHA1-Digest: Bj9yWPu43hDzBv14RWs43au3FFM=
+
+Name: res/drawable/background_view_rounded_middle.xml
+SHA1-Digest: kceEsN1A5g9BLi6BuI6qM1+6MU8=
+
+Name: res/layout/power_user_layout.xml
+SHA1-Digest: jFDAqVaotcYNMtfJe9dzXF/dTyc=
+
+Name: res/drawable-hdpi/border.9.png
+SHA1-Digest: E/s6A6XhGqYlbVovZDGad1Egfcc=
+
+Name: res/drawable/shortcut.png
+SHA1-Digest: HvcAjjYjAHhRif9yozxWsVr23m8=
+
+Name: res/drawable/speechbritish.png
+SHA1-Digest: ThhdIIuZJHuU09r0MGl9eLjkGbA=
+
+Name: res/drawable-ldpi/dir_up.png
+SHA1-Digest: s6EnOQo2SczFgXavUrhqQs8Zdbo=
+
+Name: res/drawable/documentedit.png
+SHA1-Digest: GrXgfJwcoWQ8Umxj2HSYI5Q0IPc=
+
+Name: res/drawable-ldpi/close.png
+SHA1-Digest: lg0izCnB1flsd2QqLisbxkcuGyU=
+
+Name: res/raw/fart.ogg
+SHA1-Digest: g1ZlNkKzVSwn0Qh9nPo+Tvyrsfo=
+
+Name: res/drawable/foursquare.png
+SHA1-Digest: XS6KPN/86NFK03OcfEXoUBaqZK0=
+
+Name: res/layout/phrase_layout.xml
+SHA1-Digest: bl89eD8HPHP70qbJkUEaAovW37Q=
+
+Name: res/layout/proof_read_dialog_layout.xml
+SHA1-Digest: NaCXWwIxJDvW4vjo3S36ShGV1gQ=
+
+Name: res/drawable/people.png
+SHA1-Digest: QQ4JR8IeGtHz/siQVBcQhxQCTS4=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: FMySO9PzdZ91NHUlW6rR5EEPKDY=
+
+Name: res/drawable-ldpi/file_icon.png
+SHA1-Digest: euDTfkEY8s36+OVE15aV4WaoOQM=
+
+Name: res/drawable-ldpi/chevron_white.png
+SHA1-Digest: 28Wr4XwrAj8dqnMsFJk1aNyioaw=
+
+Name: res/layout/music_dialog_layout.xml
+SHA1-Digest: Y1T7wDK5gKx9Q7M2Js/+akPURco=
+
+Name: res/drawable-hdpi/border_focused.9.png
+SHA1-Digest: fSTAhXnOVvywHs3CnV447qYzeII=
+
+Name: res/layout/edit_nickname_dialog_layout.xml
+SHA1-Digest: 5Pa2fKLFzUp49hmdqxioPb8oRmk=
+
+Name: res/layout/command_list_window.xml
+SHA1-Digest: JQvnB4vQpvz2sblOtubUkrdXhR4=
+
+Name: res/layout/ua_com_vassiliev_filebrowser_layout.xml
+SHA1-Digest: jBL0IuXnvrkCHd9YFItMk9XdYgc=
+
+Name: res/layout/bugs_layout.xml
+SHA1-Digest: DFk0hKR8Y9ag4D9EIyxRiLY23yM=
+
+Name: res/drawable/shake.png
+SHA1-Digest: 6xGPohS5YOVXZv0VH8T8a7kQlNg=
+
+Name: res/drawable-mdpi/utternot.png
+SHA1-Digest: Ex6fZUwLwCWEMCf7n3sTrlUncWE=
+
+Name: res/drawable/twofortyfouram_locale_ic_menu_dontsave.xml
+SHA1-Digest: LLEggFZyQc+lSn/cHtlM+v7OVzU=
+
+Name: res/drawable-xhdpi/utternoto.png
+SHA1-Digest: iGglg0Lyn9k3KKpPT6bgLOnh2jQ=
+
+Name: res/drawable/texttospeech.png
+SHA1-Digest: Q5QIvR95naGtYzahRS4f8oruD3g=
+
+Name: org/apache/http/entity/mime/version.properties
+SHA1-Digest: KhyfMQgZobLKVUNZ4N+SfwnWTfI=
+
+Name: res/raw/fart2.ogg
+SHA1-Digest: AlmR7fkY/pskrx0WVLPAWI7RXw4=
+
+Name: res/drawable/shutdown.png
+SHA1-Digest: x6NOlmmbTLxrQZoZBbyBC88cRGY=
+
+Name: res/layout/voices_layout.xml
+SHA1-Digest: wLe6NvjatSHXeTkw3NRoK0Q+Xfk=
+
+Name: res/layout/volume_settings_dialog_layout.xml
+SHA1-Digest: Um8QiEBy1mXDCc7Yh4c7Wr2IuKY=
+
+Name: res/drawable-ldpi/utternot.png
+SHA1-Digest: aM5AHhefNx01k860P4enGaWuHzU=
+
+Name: res/layout/applications_layout.xml
+SHA1-Digest: h12Gj5A51EBmOWZ7n4MBIyZw+O8=
+
+Name: res/drawable/settings1.png
+SHA1-Digest: LdyN/nJaj9OCDOQ/cEkALz4PnQo=
+
+Name: res/drawable/feedback1.png
+SHA1-Digest: i/QKElDht5XR8xs/Wq/5UR4jaLk=
+
+Name: res/drawable/knowledgetree.png
+SHA1-Digest: 9HAIzChBDKkhFq5QuxiJE5niM6o=
+
+Name: org/ispeech/raw/voice_close_old.mp3
+SHA1-Digest: daAaCtfhQv18MlCuK4SAwEg5WD0=
+
+Name: res/drawable/voicesearchround.png
+SHA1-Digest: yiHIPYv16+lwXHQD98I4G71JNuU=
+
+Name: res/layout/list_container.xml
+SHA1-Digest: dSxsK1JdAcWY0q2EV2md9kYtodE=
+
+Name: res/drawable-ldpi/folder_icon_light.png
+SHA1-Digest: uBtNoJ7Rox+nF4MTeIxzjJpf2xU=
+
+Name: res/drawable-xhdpi-v14/twofortyfouram_locale_ic_menu_dontsave.pn
+ g
+SHA1-Digest: S6gGsyCCKmIEwW4ZMKRBg+xsKYY=
+
+Name: res/drawable/info1.png
+SHA1-Digest: +y6qKGNAqqQ3cPauMohf/h4Jqh8=
+
+Name: res/drawable/wakeup.png
+SHA1-Digest: IWrankf5gBMMWdwCR5ac7Cs6mx0=
+
+Name: res/drawable/background_view_rounded_single.xml
+SHA1-Digest: 9ldcVzgGg7d3/iZmNcBcXCtE1Fo=
+
+Name: com/sun/mail/dsn/mailcap
+SHA1-Digest: o1KDD9JSEteURfYtLDavAop5SYs=
+
+Name: res/drawable/share1.png
+SHA1-Digest: EJnNyw5W/y0/DScKU4M25yP5JCI=
+
+Name: res/drawable-mdpi/chevron_white_down.png
+SHA1-Digest: o6RCR5u9gm0hW3zkj2WLqHmrof8=
+
+Name: res/drawable/viewresults.png
+SHA1-Digest: XlTc2lnN9n3lHJDPk4e8TwToR1M=
+
+Name: javamail.default.address.map
+SHA1-Digest: ODAfS34uRuTBdYzYKPBp+1eqEZk=
+
+Name: res/drawable/sms.png
+SHA1-Digest: 2rXVPbRvcytoJKtp05PE/Pakdpo=
+
+Name: res/layout/system_window_decorators.xml
+SHA1-Digest: CTgL9RAs35RvHISwaP2zV5/Z6Xo=
+
+Name: res/xml/ime_method.xml
+SHA1-Digest: wMGQlEuv31wUrO4i/be5hVG3Cio=
+
+Name: res/drawable/account.png
+SHA1-Digest: UsIhcDXTn5hC0RxOCZGY0c7VDZ0=
+
+Name: res/layout/customise_layout.xml
+SHA1-Digest: BBb7IOz6GrCvhb2cFOL52zdwN/s=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: CepliFtAgOUV73Bk6BbHeZHAdXs=
+
+Name: res/drawable-mdpi/chevron_white.png
+SHA1-Digest: ic8ppSBDi33jn414uN05z8uGAm8=
+
+Name: res/drawable-hdpi/close.png
+SHA1-Digest: /DlacBXZ44l0G5M7dbU3wNvofVs=
+
+Name: res/layout/nothing.xml
+SHA1-Digest: ySbJr1Z5l+nHeZkrsSRJMLZisQY=
+
+Name: res/raw/burp.ogg
+SHA1-Digest: cuCs0601R9ngXpHtP9gjENl+iYE=
+
+Name: res/drawable/refresh1.png
+SHA1-Digest: zkVPs0UvVlXaYsPa+GaMSkKdSLM=
+
+Name: res/layout/activity_list.xml
+SHA1-Digest: bs18YduT1HqrGbPQykUpiVqTSqw=
+
+Name: res/drawable-ldpi-v14/twofortyfouram_locale_ic_menu_help.png
+SHA1-Digest: jfTb9EPtQnvzs57LghOYKmFt1JA=
+
+Name: res/drawable-320dpi/chevron_white.png
+SHA1-Digest: eiOXjgGVwPOMR+m8sAk0P0LULlA=
+
+Name: res/drawable/shortcutnat.png
+SHA1-Digest: 1c2CdxUUQhSgNrr8rbnPkDDWskM=
+
+Name: res/drawable/stats.png
+SHA1-Digest: cgA9anqeEvX35y423PRmGZcru1c=
+
+Name: res/drawable/locationpin.png
+SHA1-Digest: pAXJuostvM93nqHe3b2rDmGko2g=
+
+Name: res/drawable/corner.png
+SHA1-Digest: lgGkGdk6VzEaKFzfERuie39dYMc=
+
+Name: res/drawable/cameradir.png
+SHA1-Digest: uFl6hFq3TStJTGtQosVQsw4bWwk=
+
+Name: com/att/android/speech/assets/graphmeteron_ldpi.png
+SHA1-Digest: GPvQAwaPQsOgfpa7mwC5yO0mao8=
+
+Name: res/drawable-ldpi/folder_icon.png
+SHA1-Digest: LhmCaYnIh/2/sDnNcuU8i59oWIM=
+
+Name: res/drawable/utternoto.png
+SHA1-Digest: ZsSlYw2CmxaFgzOnCMLe+dBxvrY=
+
+Name: res/drawable/twofortyfouram_locale_ic_menu_help.xml
+SHA1-Digest: 07KHncP26sG98D/bP19A541mOT4=
+
+Name: com/att/android/speech/assets/graphmeteroff_xhdpi.png
+SHA1-Digest: 0FXX2nmA9SAkJXP6gwh/hCMr6os=
+
+Name: res/drawable-hdpi/ic_launcher_nutter.png
+SHA1-Digest: dco/IjOsMUScbC7uNFbnlEjjkVw=
+
+Name: res/layout/list_item_single.xml
+SHA1-Digest: 0dG0P6jkMxQnRDrrVO33JzoNhyc=
+
+Name: res/layout/shake_config_dialog_layout.xml
+SHA1-Digest: N5d3yYcBFGRnvuKDxVg78aAj9xc=
+
+Name: res/layout/slider_dialog_layout.xml
+SHA1-Digest: mal86eoj6KUvUet7jzMknTYR0B8=
+
+Name: res/drawable-xhdpi/close.png
+SHA1-Digest: 0IaTuYpHdwNgyn8PrCfM4P1LSUM=
+
+Name: res/drawable/voicetutorial.png
+SHA1-Digest: CRZ++9GhUGgG8LZMvArK+5Qo9WU=
+
+Name: res/drawable/temperature.png
+SHA1-Digest: l9zSk5ndBPFUsEthMk4n9EHXhJ0=
+
+Name: res/layout/nickname_dialog_layout.xml
+SHA1-Digest: 9AZwEeSXzxVhNwYvsb4yQ2/w8vc=
+
+Name: res/layout/community_layout.xml
+SHA1-Digest: wLe6NvjatSHXeTkw3NRoK0Q+Xfk=
+
+Name: res/drawable-hdpi/chevron_white_down.png
+SHA1-Digest: MAFeS+FLABrTzDCYICfcimA3io8=
+
+Name: res/drawable/rootx.png
+SHA1-Digest: BX/sA8vpBqfYYlBcNWN2IeioBKA=
+
+Name: javamail.pop3.provider
+SHA1-Digest: WzFRBqrfpFdRTYf1DJkqJb2M7Bs=
+
+Name: res/drawable-ldpi/facebook_icon.png
+SHA1-Digest: lPHIYoqZ+2OpY0LPumyDkUdNdoc=
+
+Name: res/drawable/svox_us.png
+SHA1-Digest: GFZZIJxElJYoQth60OkORRQb92M=
+
+Name: res/layout/list_item_top.xml
+SHA1-Digest: ufkdW9ZwSxgylFb1TA2Paomwj5U=
+
+Name: org/ispeech/raw/processing_v3.png
+SHA1-Digest: yLF9lUwk53J1UWQdtLQMjHfD53A=
+
+Name: res/drawable/svox_uk.png
+SHA1-Digest: H+dZ9ICLlVlhjcrGAElpt25MKi0=
+
+Name: res/drawable/drive.png
+SHA1-Digest: HrvoL3Dtk+2lHaMfcka+RdtdDZw=
+
+Name: res/layout/voice_results_widget.xml
+SHA1-Digest: khn/45Ou+hQeMqDhkoxSsn187jY=
+
+Name: res/layout/user_password_dialog_layout.xml
+SHA1-Digest: uURrARb/GupPv7kCKBmJXp2kRxk=
+
+Name: res/layout/listening.xml
+SHA1-Digest: XQJbAyk8yliJIonSYcixpmqpN8M=
+
+Name: res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_dontsave.png
+SHA1-Digest: DYT0L76UTUV2RYUjAazWmbOOHD8=
+
+Name: res/drawable/email36.png
+SHA1-Digest: YhVMF7WA8MDPOnHqk9CVsGEB75Q=
+
+Name: res/drawable/gvs.png
+SHA1-Digest: tiZyb4uHdmSVflxfaJyMz02buqo=
+
+Name: res/drawable-hdpi/utternotpb.png
+SHA1-Digest: SbSYe6jjAF6HHyyLRIDPAIkdtZc=
+
+Name: javamail.default.providers
+SHA1-Digest: bkkj3t836OZJBFO//usRRCTjZ4U=
+
+Name: res/drawable-hdpi/facebook_icon.png
+SHA1-Digest: V2LEVKYg2PFb0nYYOBnKjQliS/s=
+
+Name: res/drawable-xhdpi/ic_launcher_nutter.png
+SHA1-Digest: +uZYQDBaBjvAcIQLJr9GcgEVW/U=
+
+Name: com/att/android/speech/assets/graphmeteroff_mdpi.png
+SHA1-Digest: Dho+4+yEJ4rwK8KecBpotvqzzQQ=
+
+Name: res/drawable/screencast.png
+SHA1-Digest: Ei9npmxn+fzn1rK4pgLgyuKrLFM=
+
+Name: res/drawable-ldpi/utternotpb.png
+SHA1-Digest: 7uY3kCSzGbLWPOiJnA6HS42h20I=
+
+Name: res/drawable/helpbutton.png
+SHA1-Digest: zYKPvDyqiK+GCLxHOiQCm03+5gg=
+
+Name: res/drawable/twitter.png
+SHA1-Digest: lLRtjf6ysyo+vg1CYps2oNBR2E0=
+
+Name: res/drawable-ldpi-v14/twofortyfouram_locale_ic_menu_dontsave.png
+SHA1-Digest: AR+t88zO48r9f0QQgDsKCpxYDiU=
+
+Name: res/drawable/background_view_rounded_container.xml
+SHA1-Digest: r2xdJXChh7M76VtAi7jMO3YU92E=
+
+Name: res/layout/uitableview_activity.xml
+SHA1-Digest: zAAWcOj9VnON6RRzaqQocU2bCbo=
+
+Name: res/drawable/allseeingeye.png
+SHA1-Digest: aqec16LHObkVXz+/eWJlu9EsTHQ=
+
+Name: res/drawable-320dpi/chevron_default.png
+SHA1-Digest: W7di7T6p5xyN4wIn/3FHTCFgOPc=
+
+Name: res/raw/eealert.mp3
+SHA1-Digest: fpSByJfTvtmyKmX6uNBkWm9JAAk=
+
+Name: res/drawable/utternot.png
+SHA1-Digest: Jyh5q2wCMIAtooFsshhyhzah138=
+
+Name: res/drawable/waving_hands.png
+SHA1-Digest: w95pETTdAyT3gsmzUFmSCJkzKcI=
+
+Name: res/drawable/remote.png
+SHA1-Digest: AZtC49aieDozFfeF4YJRvCnwpcM=
+
+Name: res/drawable-hdpi/chevron_default_down.png
+SHA1-Digest: VRHy2h3h/Hu+Cvllgz9ZtvZT6mg=
+
+Name: res/drawable/springpad.png
+SHA1-Digest: zhB6m1Np5pY7h4LWv3J1u/hf3zk=
+
+Name: res/drawable/userguide.png
+SHA1-Digest: n444KhO41mowVQJq3xqOJQf7Qag=
+
+Name: res/drawable/wolframalpha.png
+SHA1-Digest: 0ZsIFDkU7Dbz9iiZi2vJQENFLxw=
+
+Name: res/drawable/tick.png
+SHA1-Digest: Fkpu3lTK7gTgC+XMCCm6MGvXmTg=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: RQ09RDJf3yWYEKYOavo2ED4Yaz0=
+
+Name: res/drawable/musicpause.png
+SHA1-Digest: JX+6xhwiaNjJRwmFOUIjFrBXMYc=
+
+Name: res/drawable-mdpi/chevron_default_down.png
+SHA1-Digest: 3x/1RLrDFuV0svdXgvvWpzODYB8=
+
+Name: res/drawable/list.png
+SHA1-Digest: C8pkVQK/maTeCevVop2jJcPBvvE=
+
+Name: res/drawable/myexport.png
+SHA1-Digest: 5yHjkMEQoIMLHg/piMDUlmyhfb8=
+
+Name: resources.arsc
+SHA1-Digest: 2+moHWPnc0btKWTqfLaUhkM6pJA=
+
+Name: res/layout/edit_words_dialog_layout.xml
+SHA1-Digest: uo/tFaT43ZwD7sGBITQxIlneHlc=
+
+Name: res/drawable/earth.png
+SHA1-Digest: dAPgIAyM79HEn4av+LAhZApaAmI=
+
+Name: res/drawable-xxhdpi/ic_launcher_nutter.png
+SHA1-Digest: w8Jnnw1uKeW7wAHpRdGOWd2uURk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: rbEKZRoQqG5lGCltq5FUPtPDork=
+
+Name: res/raw/cough.ogg
+SHA1-Digest: VT9zIsjxfVuEIVBGqwZOzMaZ4s0=
+
+Name: res/layout/explorer_picker_dialog_layout.xml
+SHA1-Digest: CN+IVb4BDI/1IHlgovqslFLIEj0=
+
+Name: res/drawable/ebay.png
+SHA1-Digest: 6QKuyuOr5eg/ZPiHAZrmziPUYX8=
+
+Name: res/drawable-xhdpi/utternotpb.png
+SHA1-Digest: KWkkSNq3+ure53HAy8QQm8lteRs=
+
+Name: res/drawable/button_text_color.xml
+SHA1-Digest: VrE3AkR05Z8GOtqJ5TQagr+MPI8=
+
+Name: res/drawable/speechbubblequestion.png
+SHA1-Digest: mGBOmDl/tOwY3OjJO/nqb/Ch7is=
+
+Name: res/drawable/twofortyfouram_locale_ic_menu_save.xml
+SHA1-Digest: p5owVFXbQChH7X80zwH9pLfMVUY=
+
+Name: res/drawable/close.png
+SHA1-Digest: rMIK6S2Cs7ZBBja5PjRdsSNvtEA=
+
+Name: res/drawable/customise3.png
+SHA1-Digest: ljn/Jmp6Xbsl4CJbKjdussB1SAs=
+
+Name: res/drawable-ldpi/chevron_white_down.png
+SHA1-Digest: 5Bxhl+dUiu7bXuUg75+F29Y3bFs=
+
+Name: res/drawable-ldpi/chevron_default_down.png
+SHA1-Digest: u+8P+YYaOGkrP4oBrp3XyYwbb90=
+
+Name: classes.dex
+SHA1-Digest: lXCr9kAhSkKjnDZ0pxUL4gsydFQ=
+
+Name: res/drawable/ic_launcher_nutter.png
+SHA1-Digest: dco/IjOsMUScbC7uNFbnlEjjkVw=
+
+Name: res/drawable/volume.png
+SHA1-Digest: Lz0AS4+Emjcc5xUsgvHnoA2G0+E=
+
+Name: res/drawable-hdpi/hide.png
+SHA1-Digest: DHK8yqSKdOY8A1AJOfsuvHbesiE=
+
+Name: res/drawable/password.png
+SHA1-Digest: l63dSdXvWl+8PRERXLwbJ3cIlTs=
+
+Name: res/drawable/icon.png
+SHA1-Digest: 7Ft/Rirt+l/JRX2KjDREScdbCZk=
+
+Name: res/drawable-mdpi/ic_launcher_nutter.png
+SHA1-Digest: Ex6fZUwLwCWEMCf7n3sTrlUncWE=
+
+Name: res/drawable-hdpi/utternot.png
+SHA1-Digest: dco/IjOsMUScbC7uNFbnlEjjkVw=
+
+Name: res/layout/swap_layout.xml
+SHA1-Digest: 0j9BoK5YAJnpASe/yHy6jFONOhc=
+
+Name: res/drawable-mdpi/utternoto.png
+SHA1-Digest: 1W1d74hjMsQDcPpKTF/IWaYfNe8=
+
+Name: res/drawable/streetview.png
+SHA1-Digest: eEKCpHDnOqnSf59cyXfcVJu1b10=
+
+Name: res/drawable/tasker.png
+SHA1-Digest: Nb5D+tUC0e9nQ4A/hs4BFdwgH/A=
+
+Name: res/drawable-ldpi-v14/twofortyfouram_locale_ic_menu_save.png
+SHA1-Digest: uM6ygA2A2CBoLCcXyL6nQN7dwDc=
+
+Name: res/drawable/linkedin.png
+SHA1-Digest: 4Qc1MtbcTaEI+Wijl6hFYFRFNqc=
+
+Name: org/ispeech/raw/voice_open_old.mp3
+SHA1-Digest: HMvEyVybKlWp9hL/7W3C8ME79gs=
+
+Name: dsn.mf
+SHA1-Digest: ZcnUTpTYC4T7g3DQ8FmeC10amkI=
+
+Name: res/drawable/rootexplorerfree.png
+SHA1-Digest: 7TmAa4IIWnWPhPalJFbCANfQwNs=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: UCzYT6RE8m1+z99KNVBkhnl38jY=
+
+Name: res/drawable/waze.png
+SHA1-Digest: muNJmFIvYD7lkO3kOYTog7X6c94=
+
+Name: res/drawable-hdpi/corner.png
+SHA1-Digest: lgGkGdk6VzEaKFzfERuie39dYMc=
+
+Name: javamail.imap.provider
+SHA1-Digest: z5H5/hqdnZqzU9QuzqbpRCNxp7w=
+
+Name: res/drawable/notes.png
+SHA1-Digest: DMK488H6udClerAE6g7g5/6/ISA=
+
+Name: res/drawable/spotify.png
+SHA1-Digest: AkDurrqNMgCoqAgBKlxGcuLVCvo=
+
+Name: res/drawable-hdpi/chevron_white.png
+SHA1-Digest: he0XaLVrhrE6hb2U6IXVyeyspjQ=
+
+Name: res/drawable/market_icon.png
+SHA1-Digest: /4L6eESS0Rd5J+Bavvc45ZjIHUA=
+
+Name: org/ispeech/raw/microphone_back_v_7.png
+SHA1-Digest: MjM73THcehBZrAxQgT8JjmjZAMs=
+
+Name: res/menu/twofortyfouram_locale_help_save_dontsave.xml
+SHA1-Digest: UDNgVUUP7LGrXPVUnAfrLQi8hTc=
+
+Name: res/xml/app_widget_provider.xml
+SHA1-Digest: ZIdHwjJSlqI/2yt7WY+fi5qqivc=
+
+Name: res/drawable/gplus36.png
+SHA1-Digest: xVVWHIH9p+JiGzGDmWvX2EIHmWk=
+
+Name: res/drawable/dropbox.png
+SHA1-Digest: qMzJXo/j6aHGNvC8EKyAMfCweBY=
+
+Name: res/drawable/email.png
+SHA1-Digest: DAOaJKiWB8vc0HjA10azXqrCOwo=
+
+Name: res/drawable/command.png
+SHA1-Digest: 0lwoNTuyfzEWGfqAaW4Bjfbqtvc=
+
+Name: res/layout/command_layout.xml
+SHA1-Digest: wLe6NvjatSHXeTkw3NRoK0Q+Xfk=
+
+Name: res/layout/words_dialog_layout.xml
+SHA1-Digest: nBwDzlW9bewXp0eObPYZXT5PdxU=
+
+Name: res/layout/progress_notification.xml
+SHA1-Digest: 4JbemJU09AQu9dqFWzgXjHfiOmA=
+
+Name: res/drawable-xxhdpi/utternotpb.png
+SHA1-Digest: oDISFwy75hk38bbUjbD8AAMcI9E=
+
+Name: res/drawable-xhdpi-v14/twofortyfouram_locale_ic_menu_help.png
+SHA1-Digest: VPEQVYlV40iyh064GQSNqFV7GE4=
+
+Name: res/drawable/nicknames.png
+SHA1-Digest: 09fDWPpRw5rhAsoKkhuXx3oobPo=
+
+Name: res/drawable/maps.png
+SHA1-Digest: mVwE7fmvUWCX3Xe6p9EnNPyPFi4=
+
+Name: res/drawable/solidexplorer.png
+SHA1-Digest: ObpiL0EjVAngAljXSEAOVINsGJY=
+
+Name: res/drawable-320dpi/chevron_default_down.png
+SHA1-Digest: ZDbF2zdm4yU/KW7wcb7JetZ02bg=
+
+Name: res/drawable-hdpi/utternoto.png
+SHA1-Digest: A298dQm+Jmy1x31H5XLDDBKmknE=
+
+Name: org/ispeech/raw/voicedialer.g2g
+SHA1-Digest: d505rUOtdG/rAwjHo2j8g16rJDo=
+
+Name: res/layout/speech.xml
+SHA1-Digest: 1UHKsni1MDRkBpr0VIGgHDGbbD0=
+
+Name: res/drawable/maps24.png
+SHA1-Digest: MsAu1ABMpgKFPdUGjDwY3BJL+O8=
+
+Name: res/drawable/background_view_rounded_bottom.xml
+SHA1-Digest: C+oi2+2pSvwq8ev/yaEwnMJAtsE=
+
+Name: res/drawable/ivona_us.png
+SHA1-Digest: VAUafouZUFd6Gz3KAxskAazZIaQ=
+
+Name: res/layout/main.xml
+SHA1-Digest: aTKtvh6B+n+JbDRXgyKiKpxJJTM=
+
+Name: res/drawable/facebook.png
+SHA1-Digest: CezXgdPy2o2qeWIGi3w2jHNHEMw=
+
+Name: res/drawable/twitter36.png
+SHA1-Digest: 6ToeKaIyfZ6NWFowh5/NAIIT2lU=
+
+Name: res/layout/list_item_middle.xml
+SHA1-Digest: HymEVvmNvdZIZOD0Ij47mB6Nsxw=
+
+Name: com/att/android/speech/assets/graphmeteroff_hdpi.png
+SHA1-Digest: ai+T1n2bUmVBLoFEYOz0bE7kGsI=
+
+Name: res/drawable/bugred.png
+SHA1-Digest: dYQlpGOpIDnDu8Szwq36p+nZ62Y=
+
+Name: res/layout/advanced_settings_layout.xml
+SHA1-Digest: wLe6NvjatSHXeTkw3NRoK0Q+Xfk=
+
+Name: res/raw/giggle.ogg
+SHA1-Digest: n31gwJ6f8FB+DD4SywnN12qB5y8=
+
+Name: lib/armeabi/libnmsp_speex.so
+SHA1-Digest: I4V0dqmvwabPXDQ0rnwffuEs3AI=
+
+Name: res/drawable-ldpi/ic_window_icon.png
+SHA1-Digest: aM5AHhefNx01k860P4enGaWuHzU=
+
+Name: res/layout/activity_extras_dialog_layout.xml
+SHA1-Digest: fVQy+VHZ1ju4fJer5AHGmtFU4IE=
+
+Name: res/drawable/phrases.png
+SHA1-Digest: jHrewW5tx7XYonFsEO/PK2c2c9k=
+
+Name: res/drawable/intro.png
+SHA1-Digest: hZtbFryqUskf7sz1h4tQ1CE7sVQ=
+
+Name: res/drawable/fileexpert.png
+SHA1-Digest: Je4JzqIQTUgQ3ok5WWfIXeCWvvA=
+
+Name: javamail.smtp.provider
+SHA1-Digest: v7fA/YvXpBEh+h5gmMvr5oeg+r8=
+
+Name: res/drawable/settings3.png
+SHA1-Digest: JWafLXTrtJtzdhWSG19XWysNaIU=
+
+Name: res/drawable/plus.png
+SHA1-Digest: j3ZudAio+5uEkq7JWeDt7163Tcg=
+
+Name: res/drawable/linked.png
+SHA1-Digest: YjgxsLAVsGC67jPo3sqiXeVu4Fk=
+
+Name: res/drawable/youtube.png
+SHA1-Digest: JwPWUr/3/vexSG6V6P+KeI2+WTs=
+
+Name: res/drawable/commandedit.png
+SHA1-Digest: Oj7h1h5xoY+R1CFYUBUp4E+Ch0A=
+
+Name: res/color/text_color_selector.xml
+SHA1-Digest: x3/skXCTJDVOuKEz/pLplYYwKjM=
+
+Name: res/drawable/settings2.png
+SHA1-Digest: ci4enYORKA58Nw44/fzUZeXCoe8=
+
+Name: res/drawable/svox.png
+SHA1-Digest: P5RdUUq9J639UY6fWn5TskFP9zI=
+
+Name: res/drawable/speechbubbles24.png
+SHA1-Digest: Qj+JItXHAtcVHVl5vm48XXKo2oE=
+
+Name: org/ispeech/raw/voice_open.mp3
+SHA1-Digest: EYTOr2Y3/l4UIt1SNhkVltdemFM=
+
+Name: res/drawable/googlesearch.png
+SHA1-Digest: 6vQCb9jj1M2heuUx8+ySJGZNrDM=
+
+Name: res/layout/update_user_password_dialog_layout.xml
+SHA1-Digest: qP8hha9rakE3j231U13ngMTpYm4=
+
+Name: res/drawable-hdpi-v14/twofortyfouram_locale_ic_menu_save.png
+SHA1-Digest: DUWnQP6ezu2PlEgkscEcRcGiGD0=
+
+Name: res/drawable/myimport.png
+SHA1-Digest: E1Xn0qwhCHPzBk/7/L1nb1oEML0=
+
+Name: res/raw/beep.wav
+SHA1-Digest: cDAIZ/CDUHEv0r762VZXErfidMY=
+
+Name: res/drawable/att.png
+SHA1-Digest: y93xSA21hxXNE43MB/akJhs+SlA=
+
+Name: res/drawable/communitycolour.png
+SHA1-Digest: wrOaMkiwpCUirvL10n8hrBbJbNo=
+
+Name: res/drawable/totalcommander.png
+SHA1-Digest: BoQm6X20yvgmU+O9Lc2Dpop9RiU=
+
+Name: res/drawable/superuser.png
+SHA1-Digest: O19G3p3LUa5YoFe6seb5wm++eNI=
+
+Name: res/raw/toolbox
+SHA1-Digest: dGwZf8MX4Yv+46MgkeCxA+3C5GA=
+
+Name: res/drawable/fileexplorerdefault.png
+SHA1-Digest: Fz9AzLUBYm80tZaj/EMfeL5wM0Q=
+
+Name: mailcap
+SHA1-Digest: 3GRfn0GMnGlZ92ESUCeowtm66a0=
+
+Name: res/drawable/ivona.png
+SHA1-Digest: AOTG/6OyNYwztCLFpcB0WxdcPI4=
+
+Name: mimetypes.default
+SHA1-Digest: FcRpdgFC9EJbGKuBIYcH9szfAn0=
+
+Name: res/layout/settings_layout.xml
+SHA1-Digest: wLe6NvjatSHXeTkw3NRoK0Q+Xfk=
+
+Name: org/ispeech/raw/please_wait_v1.png
+SHA1-Digest: I1KkRWTNzgnE805EH1BNqnr3Rpw=
+
+Name: res/drawable/rootexplorer.png
+SHA1-Digest: tJ8DQkgOY8UEg9h1h+GHgpdblWM=
+
+Name: res/drawable/utternotpb.png
+SHA1-Digest: vkaJwXZr8cz/7sqY3MWgtXgZ5yI=
+
+Name: res/drawable/utternot24.png
+SHA1-Digest: G0je9Wgiqd0t12dq5c8oxDQVvUc=
+
+Name: res/layout/nicknames_layout.xml
+SHA1-Digest: bl89eD8HPHP70qbJkUEaAovW37Q=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: I3MP0NXnINH3Gb4a/IxI+nMF2mw=
+
+Name: res/layout/submit_joke_dialog_layout.xml
+SHA1-Digest: 2VQNhPvlQBS784otRBZ5itokHrs=
+
+Name: res/drawable/playmusic.png
+SHA1-Digest: 4XCHttzvgShdWEh1u5OMctgIIgk=
+
+Name: res/drawable/dragonnuance.png
+SHA1-Digest: AXwhrGJEfrhB2QcX8kaXX0VZrPo=
+
+Name: res/layout/edit_phrase_dialog_layout.xml
+SHA1-Digest: 1iy4Ql3zOLEkYrU5apdOucq3F9I=
+
+Name: res/layout/notes_picker_dialog_layout.xml
+SHA1-Digest: FVv2CI4eKL2isY5nNobkccmSIGc=
+
+Name: com/att/android/speech/assets/graphmeteron_mdpi.png
+SHA1-Digest: 4N2SoLArBze3+UUCYWe4uBviK0U=
+
+Name: res/drawable/speechbubbleq.png
+SHA1-Digest: aw3J2Usel1DDOXlZuMw0QUbzkJ8=
+
+Name: res/drawable/background_view_rounded_top.xml
+SHA1-Digest: 6cXay8MloOv0Cvxm3X+FiuuPsJ8=
+
+Name: res/layout/linkapps_layout.xml
+SHA1-Digest: wLe6NvjatSHXeTkw3NRoK0Q+Xfk=
+
+Name: res/drawable/ic_xda.png
+SHA1-Digest: AyLjdmelsAsfv8YVf9z5gfLSrJ0=
+
+Name: res/drawable-xxhdpi/utternot.png
+SHA1-Digest: w8Jnnw1uKeW7wAHpRdGOWd2uURk=
+
+Name: res/drawable-xhdpi-v14/twofortyfouram_locale_ic_menu_save.png
+SHA1-Digest: 6NMAXWCr2r1VnmQxBnBIVC49w3k=
+

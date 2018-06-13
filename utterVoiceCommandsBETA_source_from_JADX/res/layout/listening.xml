@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@id/text_listeningStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Listening..." />
+    <ProgressBar android:id="@id/progress_listening" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/text_recordLevel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Level" />
+    <Button android:id="@id/btn_listeningStop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Stop" />
+</LinearLayout>

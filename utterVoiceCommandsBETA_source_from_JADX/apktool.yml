@@ -1,0 +1,53 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: utterVoiceCommandsBETA.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '17'
+sharedLibrary: false
+unknownFiles:
+  mimetypes.default: '8'
+  mailcap.default: '8'
+  javamail.default.address.map: '8'
+  javamail.charset.map: '8'
+  javamail.smtp.provider: '8'
+  javamail.imap.provider: '8'
+  javamail.default.providers: '8'
+  mailcap: '8'
+  javamail.smtp.address.map: '8'
+  dsn.mf: '8'
+  javamail.pop3.provider: '8'
+  com/att/android/speech/assets/graphmeteroff_hdpi.png: '8'
+  com/att/android/speech/assets/graphmeteroff_ldpi.png: '8'
+  com/att/android/speech/assets/graphmeteroff_mdpi.png: '8'
+  com/att/android/speech/assets/graphmeteroff_xhdpi.png: '8'
+  com/att/android/speech/assets/graphmeteron_hdpi.png: '8'
+  com/att/android/speech/assets/graphmeteron_ldpi.png: '8'
+  com/att/android/speech/assets/graphmeteron_mdpi.png: '8'
+  com/att/android/speech/assets/graphmeteron_xhdpi.png: '8'
+  com/sun/mail/dsn/mailcap: '8'
+  org/apache/harmony/awt/internal/nls/messages.properties: '8'
+  org/apache/http/entity/mime/version.properties: '8'
+  org/ispeech/raw/logo.png: '8'
+  org/ispeech/raw/microphone_back_v_7.png: '8'
+  org/ispeech/raw/please_wait_v1.png: '8'
+  org/ispeech/raw/processing_v3.png: '8'
+  org/ispeech/raw/voice_close.mp3: '8'
+  org/ispeech/raw/voice_close_old.mp3: '8'
+  org/ispeech/raw/voice_open.mp3: '8'
+  org/ispeech/raw/voice_open_old.mp3: '8'
+  org/ispeech/raw/voicedialer.g2g: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '31'
+  versionName: 3.0.2

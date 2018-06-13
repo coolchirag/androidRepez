@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/ScrollView01" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/eapdl" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/eapiv1" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/totalcommander" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/eapcb1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+            <TextView android:textSize="17dp" android:id="@id/eaptv1" android:paddingLeft="30dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Total Commander" android:layout_toLeftOf="@id/eapcb1" android:layout_toRightOf="@id/eapiv1" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/eapiv2" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rootexplorer" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="17dp" android:id="@id/eaptv2" android:paddingLeft="30dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Root Explorer" android:layout_toLeftOf="@id/eapcb2" android:layout_toRightOf="@id/eapiv2" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/eapcb2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/eapiv3" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/esfilexplorer" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="17dp" android:id="@id/eaptv3" android:paddingLeft="30dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ES File Explorer" android:layout_toLeftOf="@id/eapcb3" android:layout_toRightOf="@id/eapiv3" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/eapcb3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/eapiv4" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fileexpert" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="17dp" android:id="@id/eaptv4" android:paddingLeft="30dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="File Expert" android:layout_toLeftOf="@id/eapcb4" android:layout_toRightOf="@id/eapiv4" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/eapcb4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/eapiv5" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rootexplorerfree" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="17dp" android:id="@id/eaptv5" android:paddingLeft="30dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Explorer" android:layout_toLeftOf="@id/eapcb5" android:layout_toRightOf="@id/eapiv5" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/eapcb5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/eapiv6" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/solidexplorer" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="17dp" android:id="@id/eaptv6" android:paddingLeft="30dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Solid Explorer" android:layout_toLeftOf="@id/eapcb6" android:layout_toRightOf="@id/eapiv6" android:layout_centerVertical="true" />
+            <CheckBox android:id="@id/eapcb6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
